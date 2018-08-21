@@ -11,20 +11,20 @@ $ ganache-cli
 ```
 Project requires to install [own3d ETHPM package](https://www.ethpm.com/registry/packages/54) ([Github](https://github.com/yeahoffline/ethpm-own3d)) via
 ```sh
-$ cd etrack
+$ cd consensys-exam-etrack
 $ truffle install
 ```
 
 ## Run tests
 Test cover every function like: initial setup of powerplants, writing to meters and returning the correct data.
 ```sh
-$ cd etrack
+$ cd consensys-exam-etrack
 $ truffle test
 ```
 
 ## Start local dev server
 ```sh
-$ cd etrack
+$ cd consensys-exam-etrack
 $ truffle compile
 $ truffle migrate
 $ npm run dev
