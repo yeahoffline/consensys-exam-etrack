@@ -12,6 +12,7 @@ $ ganache-cli
 Project requires to install [own3d ETHPM package](https://www.ethpm.com/registry/packages/54) ([Github](https://github.com/yeahoffline/ethpm-own3d)) via
 ```sh
 $ cd consensys-exam-etrack
+$ npm install
 $ truffle install
 ```
 
